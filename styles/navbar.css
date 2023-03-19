@@ -1,0 +1,37 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav div a {
+  margin-right: 18px;
+}
+
+nav div a:last-child {
+  margin-right: 0;
+}
+
+.iconNav {
+  display: none !important;
+}
+
+@media (max-width: 600px) {
+  nav {
+    padding: 25px 0;
+  }
+
+  .iconNav {
+    display: block !important;
+  }
+
+  nav div {
+    display: none;
+  }
+}

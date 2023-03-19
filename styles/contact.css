@@ -1,0 +1,55 @@
+.contact {
+  margin-top: 180px;
+  margin-bottom: 200px;
+  width: 100%;
+}
+
+.contact p {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 91.9%;
+  margin-top: 86px;
+}
+
+.contact div {
+  display: flex;
+  margin-top: 43px;
+  justify-content: center;
+  width: 100%;
+}
+
+.contact div a {
+  font-size: 25px;
+  margin-right: 14px;
+}
+
+.contact div a:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 600px) {
+  .contact {
+    margin-top: 60px;
+    margin-bottom: 100px;
+  }
+
+  .contact p {
+    font-size: 30px;
+    margin-top: 60px;
+  }
+
+  .contact div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .contact div a {
+    margin-bottom: 13px;
+  }
+
+  .contact div a:last-child {
+    margin-bottom: 0;
+  }
+}

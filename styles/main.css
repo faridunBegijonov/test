@@ -1,0 +1,121 @@
+@import url(navbar.css);
+@import url(banner.css);
+@import url(portfolio.css);
+@import url(contact.css);
+@import url(footer.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-color: #0e0d0d;
+  color: #fff;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 94.057px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 65px;
+  line-height: 91.9%;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 91.9%;
+  text-align: center;
+  letter-spacing: -0.035em;
+}
+
+a {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 86.9%;
+  font-variant: all-small-caps;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.aboutText {
+  margin-top: 220px;
+  margin-bottom: 137px;
+}
+
+.mobileMenu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background-color: #222;
+  height: 100vh;
+  width: 200px;
+  z-index: 99;
+  right: -100%;
+  transition: all 0.5s ease;
+  padding: 35px;
+}
+
+.mobileMenu a {
+  display: block;
+  margin-bottom: 32px;
+}
+
+.mobileMenu i {
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 1025px) {
+  h1 {
+    font-size: 74px;
+  }
+
+  h1 {
+    font-size: 55px;
+  }
+
+  p {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+
+  p {
+    font-size: 40px;
+  }
+
+  .container {
+    padding: 0 30px;
+  }
+
+  .aboutText {
+    margin-top: 157px;
+    margin-bottom: 0;
+  }
+}
