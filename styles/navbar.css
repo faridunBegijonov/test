@@ -3,6 +3,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 40px 0;
+  scroll-margin-top: 6rem;
 }
 
 nav div {
